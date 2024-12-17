@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+button{
+  background-color: #205072;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main{
+  margin: 4px;
+  padding: 4px;
+  width: 460px;
+  background: #329D9C;
+}
+.add{
+  background:  #7BE495;
+  width:70%;
+  margin:4px auto;
+  padding:10px 40px;
+  border: 2px solid rgb(90, 89, 89) ;
+  box-shadow: 
+  10px 10px 20px rgba(0, 0, 0, 0.4),   /* Bottom-right shadow */
+  -10px -10px 20px rgba(187, 169, 169, 0.744), /* Top-left shadow */
+  10px -10px 15px rgba(0, 0, 0, 0.3),   /* Top-right shadow */
+  -10px 10px 15px rgba(0, 0, 0, 0.3);   /* Bottom-left shadow */
+  border-radius: 20px;
+}
+.list{
+  background: #56C596;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width:70%;
+  margin:4px auto;
+  padding:10px 40px;
+  border-radius: 20px;
+}
+h4,p{
+  color:darkslategray;
+}
+/* input,textarea{
+  background: #ffffff;
+  border: none;
+  padding: auto;
+  margin: 4px;
+
+} */
+    /* General input and textarea styles */
+    input, textarea {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      margin: 4px;
+      border-radius: 5px;
+      text-shadow: #484848;
+      color: aliceblue;
+      border: 2px solid #6d6b6b;
+      background-color: #00000035;
+      width: 100%;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+    }
+
+    /* Focus effect */
+    input:focus, textarea:focus {
+      border-color: #367938;
+      background-color: #38383877;
+      outline: none;
+    }
+.check{
+  background: #7BE495;
+  width:70%; 
+   margin:4px auto;
+  padding:10px 40px;
+  border-radius: 20px;
+  border:2px solid rgb(90, 89, 89);
+  box-shadow: 
+        10px 10px 20px rgba(0, 0, 0, 0.4),   /* Bottom-right shadow */
+        -10px -10px 20px rgba(187, 169, 169, 0.744), /* Top-left shadow */
+        10px -10px 15px rgba(0, 0, 0, 0.3),   /* Top-right shadow */
+        -10px 10px 15px rgba(0, 0, 0, 0.3);   /* Bottom-left shadow */
+}
+h2{
+  font-family: Arial, sans-serif;
+}
